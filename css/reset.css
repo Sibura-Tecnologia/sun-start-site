@@ -11,23 +11,18 @@ body {
     color: var(--text-color);
 }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
 h1, h2, h3 {
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 20px;
 }
 
 a {
-    text-decoration: none;
-    color: white;
+    text-decoration: none !important;
+    color: white !important;
 }
 
-a:-webkit-any-link {
-    text-decoration: none;
-    color: white;
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
